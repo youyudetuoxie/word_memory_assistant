@@ -1,26 +1,967 @@
 word,phonetic,meaning,example
-abandon,/əˈbændən/,放弃；遗弃,He abandoned his old car.
-ability,/əˈbɪləti/,能力；才能,She has the ability to lead.
-absorb,/əbˈzɔːrb/,吸收；吸引,Plants absorb water through roots.
-abstract,/ˈæbstrækt/,抽象的；摘要,The concept is too abstract for me.
-academic,/ˌækəˈdemɪk/,学术的；学业的,She published an academic paper.
-accelerate,/əkˈseləreɪt/,加速；促进,The car accelerated quickly.
-accept,/əkˈsept/,接受；承认,She accepted the invitation.
-access,/ˈækses/,进入；通道,Students have access to the library.
-accomplish,/əˈkɑːmplɪʃ/,完成；实现,He accomplished his goal.
-accurate,/ˈækjərət/,准确的；精确的,The report is very accurate.
-achieve,/əˈtʃiːv/,实现；达到,She achieved great success.
-acknowledge,/əkˈnɑːlɪdʒ/,承认；感谢,He acknowledged his mistake.
-acquire,/əˈkwaɪər/,获得；学到,She acquired new skills.
-adapt,/əˈdæpt/,适应；改编,He adapted to the new environment.
-adequate,/ˈædɪkwət/,足够的；适当的,The supply is adequate.
-adjust,/əˈdʒʌst/,调整；适应,Please adjust the volume.
-admire,/ədˈmaɪər/,钦佩；欣赏,I admire her courage.
-adopt,/əˈdɑːpt/,采用；收养,They adopted a new strategy.
-advance,/ədˈvæns/,前进；进步,Technology continues to advance.
-advantage,/ədˈvæntɪdʒ/,优势；好处,This is a big advantage.
-advocate,/ˈædvəkeɪt/,提倡；倡导,She advocates for equal rights.
-affect,/əˈfekt/,影响；感动,The weather affects our mood.
-afford,/əˈfɔːrd/,负担得起；提供,I can't afford a new car.
-agenda,/əˈdʒendə/,议程；日程,What's on the agenda today?
-aggressive,/əˈɡresɪv/,侵略性的；有进取心的,He is an aggressive player.
+abandon,/əˈbændən/,放弃,Don't abandon your dreams.
+absorb,/əbˈzɔːrb/,吸收,Sponges absorb water easily.
+academic,/ˌækəˈdemɪk/,学术的,He has strong academic records.
+accomplish,/əˈkɑːmplɪʃ/,完成,We accomplished the task together.
+boundary,/ˈbaʊndri/,边界,The river forms the boundary between two states.
+budget,/ˈbʌdʒɪt/,预算,We need to plan our budget carefully.
+burden,/ˈbɜːrdn/,负担,She carried the burden of responsibility alone.
+candidate,/ˈkændɪdeɪt/,候选人,The candidate gave a powerful speech.
+capable,/ˈkeɪpəbl/,有能力的,She is capable of handling complex tasks.
+capture,/ˈkæptʃər/,捕获,The photographer captured a beautiful moment.
+delicate,/ˈdelɪkət/,精致的,This is a very delicate piece of art.
+deliver,/dɪˈlɪvər/,递送,The mailman delivers letters every morning.
+demonstrate,/ˈdemənstreɪt/,证明,The experiment demonstrates the theory.
+elaborate,/ɪˈlæbərət/,详细的,She gave an elaborate explanation of the plan.
+eliminate,/ɪˈlɪmɪneɪt/,消除,We must eliminate all errors before submitting.
+embrace,/ɪmˈbreɪs/,拥抱,She embraced the new opportunity eagerly.
+fascinating,/ˈfæsɪneɪtɪŋ/,迷人的,The documentary was truly fascinating.
+fatal,/ˈfeɪtl/,致命的,The accident proved to be fatal.
+feature,/ˈfiːtʃər/,特征,The new phone has many impressive features.
+gallery,/ˈɡæləri/,画廊,The gallery displays modern artwork.
+generate,/ˈdʒenəreɪt/,产生,Solar panels generate clean energy.
+generous,/ˈdʒenərəs/,慷慨的,He is generous with his time and money.
+hesitate,/ˈhezɪteɪt/,犹豫,Don't hesitate to ask for help.
+highlight,/ˈhaɪlaɪt/,强调,The report highlights key findings.
+horizon,/həˈraɪzn/,地平,The sun disappeared below the horizon.
+identical,/aɪˈdentɪkl/,完全相同的,The twins wore identical outfits.
+illustrate,/ˈɪləstreɪt/,说明,The chart illustrates the growth trend.
+imaginary,/ɪˈmædʒɪnəri/,想象的,The story takes place in an imaginary world.
+justify,/ˈdʒʌstɪfaɪ/,证明...正当,You need to justify your decision.
+keen,/kiːn/,热衷的,She is keen on learning new languages.
+kingdom,/ˈkɪŋdəm/,王国,The kingdom was ruled by a wise queen.
+label,/ˈleɪbl/,标签,Read the label before taking the medicine.
+launch,/lɔːntʃ/,发射,The company will launch a new product next month.
+layer,/ˈleɪeɪr/,层,There is a layer of dust on the shelf.
+magnificent,/mæɡˈnɪfɪsnt/,壮丽的,The view from the mountaintop was magnificent.
+maintain,/meɪnˈteɪn/,维持,It is important to maintain a healthy lifestyle.
+manufacture,/ˌmænjuˈfæktʃər/,制造,The factory manufactures electronic devices.
+negotiate,/nɪˈɡoʊʃieɪt/,谈判,The two sides agreed to negotiate a deal.
+neutral,/ˈnjuːtrəl/,中立的,Switzerland remained neutral during the war.
+nightmare,/ˈnaɪtmeɪr/,噩梦,The exam was a complete nightmare.
+obstacle,/ˈɑːbstəkl/,障碍,Lack of funding is a major obstacle.
+obtain,/əbˈteɪn/,获得,She obtained her degree last year.
+occasion,/əˈkeɪʒn/,场合,This is a special occasion for the whole family.
+passion,/ˈpæʃn/,热情,He speaks about science with great passion.
+patience,/ˈpeɪʃns/,耐心,Teaching children requires a lot of patience.
+perceive,/pərˈsiːv/,察觉,She perceived a change in his attitude.
+qualify,/ˈkwɒlɪfaɪ/,取得资格,He qualified for the national team.
+quantity,/ˈkwɒntəti/,数量,We need a large quantity of supplies.
+quote,/kwoʊt/,引用,She likes to quote famous philosophers.
+racial,/ˈreɪʃl/,种族的,The country made progress in racial equality.
+radical,/ˈrædɪkl/,激进的,The proposal calls for radical changes.
+recommend,/ˌrekəˈmend/,推荐,I recommend this book to everyone.
+sacrifice,/ˈsækrɪfaɪs/,牺牲,Parents often sacrifice for their children.
+satellite,/ˈsætəlaɪt/,卫星,The satellite orbits the earth every day.
+schedule,/ˈskedʒuːl/,日程,My schedule is very tight this week.
+tendency,/ˈtendənsi/,趋势,There is a tendency for prices to rise in winter.
+territory,/ˈterətɔːri/,领土,The dog guards its territory fiercely.
+transform,/trænsˈfɔːrm/,转变,Technology can transform the way we live.
+ultimate,/ˈʌltɪmət/,最终的,Winning the championship was her ultimate goal.
+undergo,/ˌʌndərˈɡoʊ/,经历,The patient will undergo surgery tomorrow.
+unique,/juˈniːk/,独特的,Every snowflake has a unique pattern.
+vacant,/ˈveɪkənt/,空的,The vacant house attracted many buyers.
+vague,/veɪɡ/,模糊的,His explanation was rather vague.
+valid,/ˈvælɪd/,有效的,Your ticket is valid for three days.
+wander,/ˈwɒndər/,漫步,They wandered through the old town all afternoon.
+welfare/,ˈwelfeɪr/,福利,The government increased funding for public welfare.
+withdraw,/wɪðˈdrɔː/,撤回,He decided to withdraw his application.
+yield,/jiːld/,产出,The farm yields a good harvest every autumn.
+youngster,/ˈjʌŋstər/,年轻人,The youngster showed great talent in music.
+zone,/zoʊn/,区域,This is a no-parking zone.
+accommodate,/əˈkɑːmədeɪt/,容纳,The hotel can accommodate up to 500 guests.
+accurate,/ˈækjərət/,准确的,The weather forecast was surprisingly accurate.
+accuse,/əˈkjuːz/,指控,They accused him of stealing the money.
+acknowledge,/əkˈnɑːlɪdʒ/,承认,She refused to acknowledge her mistake.
+acquire,/əˈkwaɪər/,获得,He acquired a new skill through practice.
+adapt,/əˈdæpt/,适应,It takes time to adapt to a new environment.
+adequate,/ˈædɪkwət/,足够的,There is adequate food for everyone.
+adjust,/əˈdʒʌst/,调整,Please adjust the volume of the speaker.
+admire,/ədˈmaɪər/,钦佩,I admire her courage and determination.
+adopt,/əˈdɑːpt/,采用,The company decided to adopt a new strategy.
+advance,/ədˈvæns/,进步,Technology continues to advance rapidly.
+advocate,/ˈædvəkeɪt/,提倡,She advocates for equal rights for all citizens.
+afford,/əˈfɔːrd/,买得起,We cannot afford to waste any more time.
+agenda,/əˈdʒendər/,议程,The agenda for today includes three topics.
+aggressive,/əˈɡresɪv/,侵略性的,The company adopted an aggressive marketing approach.
+allocate,/ˈæləkeɪt/,分配,The school will allocate more resources to science.
+alternative,/ɔːlˈtɜːrnətɪv/,替代的,We need to find an alternative solution.
+amaze,/əˈmeɪz/,使惊叹,The magician's tricks never fail to amaze the audience.
+ambitious,/æmˈbɪʃəs/,有雄心的,She is an ambitious young entrepreneur.
+amuse,/əˈmjuːz/,逗乐,The clown amused the children at the party.
+analyze,/ˈænəlaɪz/,分析,Scientists analyze data to draw conclusions.
+anniversary,/ˌænɪˈvɜːrsəri/,纪念日,They celebrated their wedding anniversary.
+anticipate,/ænˈtɪsɪpeɪt/,预料,We did not anticipate such a strong response.
+anxiety,/æŋˈzaɪəti/,焦虑,She felt a lot of anxiety before the interview.
+apparent,/əˈpærənt/,明显的,It was apparent that he had been crying.
+appetite,/ˈæpɪtaɪt/,食欲,The long walk gave me a big appetite.
+appliance,/əˈplaɪəns/,家用电器,The kitchen is full of modern appliances.
+appreciate,/əˈpriːʃieɪt/,感激,I really appreciate your help with this project.
+approach,/əˈproʊtʃ/,方法,We need a new approach to solve this problem.
+appropriate,/əˈproʊpriət/,适当的,Please wear appropriate clothing for the event.
+approve,/əˈpruːv/,批准,The committee approved the new proposal.
+arise,/əˈraɪz/,出现,Problems may arise if we do not plan ahead.
+artificial,/ˌɑːrtɪˈfɪʃl/,人造的,The flowers in the lobby are artificial.
+aside,/əˈsaɪd/,在旁边,She stepped aside to let others pass.
+assess,/əˈses/,评估,Teachers assess student performance regularly.
+assign,/əˈsaɪn/,分配,The teacher assigned homework to the class.
+assist,/əˈsɪst/,协助,Volunteers assist the elderly with daily tasks.
+associate,/əˈsoʊʃieɪt/,联想,People associate the color red with passion.
+assume,/əˈsjuːm/,假设,Let us assume that the plan will work.
+assure,/əˈʃʊr/,向...保证,I assure you that everything will be fine.
+atmosphere,/ˈætməsfɪr/,气氛,The restaurant has a warm and friendly atmosphere.
+attach,/əˈtætʃ/,附上,Please attach your photo to the application form.
+attain,/əˈteɪn/,达到,She attained the highest score in the class.
+attempt,/əˈtempt/,尝试,He made an attempt to break the world record.
+attitude,/ˈætɪtuːd/,态度,A positive attitude can change your whole life.
+attract,/əˈtrækt/,吸引,The bright colors attract many tourists.
+authority,/əˈθɒrəti/,当局,The local authority approved the construction project.
+automatic,/ˌɔːtəˈmætɪk/,自动的,The door has an automatic locking system.
+available,/əˈveɪləbl/,可用的,Is this seat available?
+aware,/əˈweɪr/,意识到的,She was not aware of the danger ahead.
+awkward,/ˈɔːkwərd/,尴尬的,There was an awkward silence in the room.
+bachelor,/ˈbætʃələr/,单身汉,He remained a bachelor all his life.
+background,/ˈbækɡraʊnd/,背景,She has a strong background in mathematics.
+balance,/ˈbæləns/,平衡,Maintaining work-life balance is essential.
+bargain,/ˈbɑːrɡɪn/,讨价还价,She loves to bargain at the local market.
+barrier,/ˈbæriər/,障碍,Language can be a barrier to communication.
+behalf,/bɪˈhæf/,代表,He spoke on behalf of the entire team.
+benefit,/ˈbenɪfɪt/,好处,Exercise has many health benefits.
+betray,/bɪˈtreɪ/,背叛,He would never betray his closest friend.
+blend,/blend/,混合,The tea blends several different flavors.
+boast,/boʊst/,夸耀,He likes to boast about his achievements.
+boom,/buːm/,繁荣,The tech industry experienced a major boom.
+boost,/buːst/,促进,The new policy will boost the economy.
+brand,/brænd/,品牌,This brand is known for its quality products.
+brief,/briːf/,简短的,She gave a brief summary of the report.
+brilliant,/ˈbrɪliənt/,才华横溢的,She came up with a brilliant idea.
+broadcast,/ˈbrɔːdkæst/,广播,The radio station broadcasts news every hour.
+broad,/brɔːd/,广泛的,The course covers a broad range of topics.
+calculate,/ˈkælkjuleɪt/,计算,Can you calculate the total cost for me?
+cancel,/ˈkænsl/,取消,They had to cancel the outdoor event due to rain.
+career,/kəˈrɪr/,职业,She chose a career in medicine.
+category,/ˈkætəɡɔːri/,类别,The books are arranged by category.
+cease,/siːs/,停止,The factory ceased production last year.
+ceremony,/ˈserəmoʊni/,仪式,The opening ceremony was spectacular.
+challenge,/ˈtʃælɪndʒ/,挑战,Learning a new language is a big challenge.
+champion,/ˈtʃæmpiən/,冠军,She became the world champion in swimming.
+channel,/ˈtʃænl/,频道,Which TV channel is the game on?
+character,/ˈkærəktər/,性格,Honesty is an important character trait.
+charity,/ˈtʃærəti/,慈善,She donated a large sum to charity.
+chemical,/ˈkemɪkl/,化学的,The factory produces various chemical products.
+cherish,/ˈtʃerɪʃ/,珍惜,We should cherish every moment with loved ones.
+circulate,/ˈsɜːrkjuleɪt/,传播,The news circulated quickly on social media.
+circumstance,/ˈsɜːrkəmstæns/,情况,Under no circumstance should you give up.
+civilian,/sɪˈvɪliən/,平民,The bombing killed many innocent civilians.
+clarify,/ˈklærɪfaɪ/,澄清,Can you clarify what you mean by that?
+classify,/ˈklæsɪfaɪ/,分类,Libraries classify books by subject.
+client,/ˈklaɪənt/,客户,The lawyer met with her client this morning.
+clue,/kluː/,线索,The detective found an important clue at the scene.
+collapse,/kəˈlæps/,倒塌,The old building could collapse at any time.
+colleague,/ˈkɑːliːɡ/,同事,She discussed the project with her colleagues.
+combine,/kəmˈbaɪn/,结合,We should combine our efforts to finish faster.
+command,/kəˈmænd/,命令,The officer gave the command to advance.
+comment,/ˈkɑːment/,评论,She left a positive comment on the blog post.
+commit,/kəˈmɪt/,承诺,He committed himself to finishing the marathon.
+communicate,/kəˈmjuːnɪkeɪt/,沟通,It is important to communicate clearly with others.
+community,/kəˈmjuːnəti/,社区,The community organized a neighborhood cleanup.
+compact,/kəmˈpækt/,紧凑的,The compact car is easy to park in the city.
+companion,/kəmˈpæniən/,同伴,Her dog has been her faithful companion for years.
+compare,/kəmˈpeər/,比较,It is not fair to compare two very different things.
+compete,/kəmˈpiːt/,竞争,Several companies compete for the same market.
+complain,/kəmˈpleɪn/,抱怨,He always complains about the weather.
+complex,/ˈkɑːmpleks/,复杂的,This is a very complex mathematical problem.
+component,/kəmˈpoʊnənt/,组成部分,Each component of the machine must work properly.
+compose,/kəmˈpoʊz/,组成,The committee is composed of ten members.
+comprehend,/ˌkɑːmpriˈhend/,理解,It is hard to comprehend the vastness of space.
+concentrate,/ˈkɑːnsntreɪt/,集中,Please concentrate on your studies.
+concept,/ˈkɑːnsept/,概念,The concept of freedom means different things to people.
+concern,/kənˈsɜːrn/,关心,Environmental pollution is a major concern.
+conclude,/kənˈkluːd/,得出结论,The study concludes that exercise improves mood.
+conduct,/kənˈdʌkt/,进行,The scientist conducted an important experiment.
+confess,/kənˈfes/,承认,He finally confessed that he had made a mistake.
+confidence,/ˈkɑːnfɪdəns/,信心,She spoke with great confidence on stage.
+confirm,/kənˈfɜːrm/,确认,Please confirm your reservation by email.
+conflict,/ˈkɑːnflɪkt/,冲突,The two countries tried to resolve the conflict peacefully.
+confuse,/kənˈfjuːz/,使困惑,The instructions confused most of the students.
+congress,/ˈkɑːŋɡrəs/,国会,The congress passed the new education bill.
+conscience,/ˈkɑːnʃəns/,良心,His conscience would not allow him to lie.
+consensus,/kənˈsensəs/,共识,The team reached a consensus on the project plan.
+consequence,/ˈkɑːnsɪkwens/,后果,Every action has a consequence.
+conservative,/kənˈsɜːrvətɪv/,保守的,He holds conservative political views.
+considerable,/kənˈsɪdərəbl/,相当大的,They saved a considerable amount of money.
+consistent,/kənˈsɪstənt/,一致的,Her work has been consistent and reliable.
+constitute,/ˈkɑːnstɪtuːt/,构成,Women constitute more than half of the population.
+construct,/kənˈstrʌkt/,建造,They plan to construct a new bridge across the river.
+consult,/kənˈsʌlt/,咨询,You should consult a doctor about your symptoms.
+consume,/kənˈsuːm/,消耗,Modern cars consume less fuel than older models.
+contact,/ˈkɑːntækt/,联系,Please contact me if you have any questions.
+contemporary,/kənˈtempəreri/,当代的,The museum features contemporary art from around the world.
+contest,/ˈkɑːntest/,比赛,She won first place in the singing contest.
+context,/ˈkɑːntekst/,上下文,The meaning of a word depends on its context.
+contrast,/ˈkɑːntræst/,对比,There is a sharp contrast between the two cities.
+contribute,/kənˈtrɪbjuːt/,贡献,Everyone should contribute to the community.
+controversial,/ˌkɑːntrəˈvɜːrʃl/,有争议的,The new law is highly controversial.
+convenient,/kənˈviːniənt/,方便的,The store is in a very convenient location.
+convince,/kənˈvɪns/,说服,She convinced him to change his mind.
+cooperate,/koʊˈɑːpəreɪt/,合作,The two companies agreed to cooperate on the project.
+coordinate,/koʊˈɔːrdɪneɪt/,协调,We need to coordinate our efforts more effectively.
+cope,/koʊp/,应对,She learned to cope with stress through meditation.
+corporate,/ˈkɔːrpərət/,公司的,The corporate headquarters is located downtown.
+correspond,/ˌkɔːrɪˈspɑːnd/,通信,They corresponded by letter for many years.
+costume,/ˈkɑːstuːm/,服装,Everyone wore a costume to the Halloween party.
+counsel,/ˈkaʊnsl/,建议,The lawyer offered counsel to his client.
+craft,/kræft/,工艺,She learned the craft of pottery from her grandmother.
+crash,/kræʃ/,碰撞,The car crash caused a long traffic jam.
+creation,/kriˈeɪʃn/,创造,The artist's latest creation was displayed in the gallery.
+creative,/kriˈeɪtɪv/,有创造力的,She is one of the most creative designers in the company.
+credit,/ˈkredɪt/,信用,He deserves credit for all his hard work.
+criminal,/ˈkrɪmɪnl/,犯罪的,The criminal was sentenced to ten years in prison.
+crisis,/ˈkraɪsɪs/,危机,The financial crisis affected millions of people.
+critical,/ˈkrɪtɪkl/,关键的,Clean water is critical to public health.
+criticize,/ˈkrɪtɪsaɪz/,批评,It is easy to criticize others but hard to improve yourself.
+crucial,/ˈkruːʃl/,至关重要的,This is a crucial moment for the company.
+cultivate,/ˈkʌltɪveɪt/,培养,Reading can cultivate a child's imagination.
+curiosity,/ˌkjʊriˈɑːsəti/,好奇心,Children are naturally full of curiosity.
+current,/ˈkɜːrənt/,当前的,The current situation requires immediate attention.
+curriculum,/kəˈrɪkjələm/,课程,The school updated its curriculum this year.
+debate,/dɪˈbeɪt/,辩论,The students held a debate on climate change.
+deceive,/dɪˈsiːv/,欺骗,He tried to deceive his friends with a fake story.
+decline,/dɪˈklaɪn/,下降,The population of the village has been in decline.
+decorate,/ˈdekəreɪt/,装饰,They decorated the room with balloons and flowers.
+dedicate,/ˈdedɪkeɪt/,致力于,She dedicated her life to helping the poor.
+defeat,/dɪˈfiːt/,击败,Our team defeated the champions in the final match.
+defend,/dɪˈfend/,保卫,The soldiers defended the city against the attack.
+define,/dɪˈfaɪn/,定义,How do you define success in life?
+delay,/dɪˈleɪ/,延误,The flight was delayed due to heavy fog.
+deliberate,/dɪˈlɪbərət/,故意的,That was a deliberate attempt to mislead the public.
+demand,/dɪˈmænd/,要求,The workers demanded higher wages and better conditions.
+deny,/dɪˈnaɪ/,否认,He denied any involvement in the scandal.
+depart,/dɪˈpɑːrt/,离开,The train departs from platform three at noon.
+depend,/dɪˈpend/,依赖,The result will depend on how hard you work.
+deposit,/dɪˈpɑːzɪt/,存款,She made a large deposit into her savings account.
+depress,/dɪˈpres/,使沮丧,The rainy weather can depress people's mood.
+derive,/dɪˈraɪv/,获得,She derives great pleasure from reading novels.
+describe,/dɪˈskraɪb/,描述,Can you describe what happened last night?
+deserve,/dɪˈzɜːrv/,值得,She deserves a promotion for her excellent work.
+design,/dɪˈzaɪn/,设计,He studied graphic design in college.
+desire,/dɪˈzaɪər/,渴望,She has a strong desire to travel the world.
+desperate,/ˈdespərət/,绝望的,The refugees were in desperate need of food and shelter.
+destination,/ˌdestɪˈneɪʃn/,目的地,Paris is a popular tourist destination.
+detect,/dɪˈtekt/,探测,The sensor can detect changes in temperature.
+determine,/dɪˈtɜːrmɪn/,决定,Your attitude determines your altitude.
+device,/dɪˈvaɪs/,设备,This device can measure heart rate accurately.
+devote,/dɪˈvoʊt/,奉献,She devoted her entire career to medical research.
+digest,/daɪˈdʒest/,消化,It takes time to digest a heavy meal.
+dimension,/daɪˈmenʃn/,维度,The room has very generous dimensions.
+diminish,/dɪˈmɪnɪʃ/,减少,The noise gradually diminished as we moved away.
+diplomatic,/ˌdɪpləˈmætɪk/,外交的,The two countries reached a diplomatic agreement.
+disappoint,/ˌdɪsəˈpɔɪnt/,使失望,The final result disappointed the fans.
+disaster,/dɪˈzæstər/,灾难,The earthquake was a terrible disaster.
+discipline,/ˈdɪsəplɪn/,纪律,Good discipline is essential in the military.
+discourage,/dɪsˈkɜːrɪdʒ/,使气馁,Do not let failure discourage you from trying again.
+discrimination,/dɪˌskrɪmɪˈneɪʃn/,歧视,Laws were passed to prevent racial discrimination.
+dismiss,/dɪsˈmɪs/,解雇,The manager dismissed the employee for poor performance.
+disorder,/dɪsˈɔːrdər/,混乱,His desk was in complete disorder.
+display,/dɪˈspleɪ/,展示,The museum will display ancient artifacts next week.
+distinct,/dɪˈstɪŋkt/,不同的,There are two distinct approaches to this problem.
+distinguish,/dɪˈstɪŋɡwɪʃ/,区分,It is hard to distinguish the twins apart.
+distribute,/dɪˈstrɪbjuːt/,分发,Volunteers distributed food to the homeless.
+disturb,/dɪˈstɜːrb/,打扰,Please do not disturb me while I am studying.
+diverse,/daɪˈvɜːrs/,多样的,The university attracts students from diverse backgrounds.
+document,/ˈdɑːkjumənt/,文件,Please bring all the required documents to the meeting.
+domestic,/dəˈmestɪk/,国内的,Domestic flights are usually cheaper than international ones.
+dominate,/ˈdɑːmɪneɪt/,主导,A few large companies dominate the market.
+donate,/ˈdoʊneɪt/,捐赠,He donated blood to the local hospital.
+dose,/doʊs/,剂量,Follow the recommended dose on the medicine bottle.
+draft,/dræft/,草稿,She submitted the first draft of her essay.
+dramatic,/drəˈmætɪk/,戏剧性的,There has been a dramatic improvement in air quality.
+drought,/draʊt/,干旱,The severe drought destroyed most of the crops.
+dump,/dʌmp/,倾倒,It is illegal to dump waste in the river.
+durable,/ˈdʊrəbl/,耐用的,This bag is made of very durable material.
+dynamic,/daɪˈnæmɪk/,充满活力的,She is a dynamic leader with great vision.
+eager,/ˈiːɡər/,渴望的,The students were eager to learn about space exploration.
+earnest,/ˈɜːrnɪst/,认真的,He made an earnest effort to improve his grades.
+economy,/ɪˈkɑːnəmi/,经济,The national economy is slowly recovering.
+edition,/ɪˈdɪʃn/,版本,This is the third edition of the textbook.
+educate,/ˈedʒukeɪt/,教育,Parents play a key role in educating their children.
+effect,/ɪˈfekt/,效果,The medicine had a positive effect on the patient.
+efficient,/ɪˈfɪʃnt/,高效的,She is a very efficient worker.
+elect,/ɪˈlekt/,选举,The citizens elected a new president last month.
+element,/ˈelɪmənt/,元素,Water is composed of two chemical elements.
+elegant,/ˈelɪɡənt/,优雅的,She wore an elegant dress to the dinner party.
+elevate,/ˈelɪveɪt/,提高,Good lighting can elevate the mood of a room.
+embarrass,/ɪmˈbærəs/,使尴尬,He was embarrassed when he forgot his lines on stage.
+emerge,/ɪˈmɜːrdʒ/,出现,New evidence emerged during the investigation.
+emergency,/ɪˈmɜːrdʒənsi/,紧急情况,In case of emergency please call this number.
+emotion,/ɪˈmoʊʃn/,情感,Music has the power to stir deep emotions.
+emphasis,/ˈemfəsɪs/,强调,The teacher put emphasis on reading comprehension.
+employ,/ɪmˈplɔɪ/,雇用,The factory employs over 300 workers.
+enable,/ɪˈneɪbl/,使能够,Technology enables us to work from anywhere.
+encounter,/ɪnˈkaʊntər/,遇到,We encountered many difficulties during the trip.
+encourage,/ɪnˈkɜːrɪdʒ/,鼓励,Teachers should encourage students to ask questions.
+endure,/ɪnˈdʊr/,忍受,She endured years of hardship with great strength.
+engage,/ɪnˈɡeɪdʒ/,参与,The teacher tried to engage every student in the discussion.
+enormous,/ɪˈnɔːrməs/,巨大的,The project requires an enormous amount of effort.
+ensure,/ɪnˈʃʊr/,确保,Please ensure that all doors are locked before leaving.
+enterprise,/ˈentərpraɪz/,企业,The enterprise grew into a multinational company.
+enthusiasm,/ɪnˈθjuːziæzəm/,热情,Her enthusiasm for the project inspired the whole team.
+entire,/ɪnˈtaɪər/,整个的,He spent the entire day reading in the library.
+environment,/ɪnˈvaɪrənmənt/,环境,Protecting the environment is everyone's responsibility.
+envy,/ˈenvi/,嫉妒,She could not hide her envy of her sister's success.
+episode,/ˈepɪsoʊd/,插曲,That was an embarrassing episode in his life.
+equality,/ɪˈkwɑːləti/,平等,The movement fights for gender equality.
+equip,/ɪˈkwɪp/,装备,The school is well equipped with modern facilities.
+era,/ˈɪrər/,时代,We are living in the era of artificial intelligence.
+error,/ˈerər/,错误,A small error in the calculation changed the final result.
+escape,/ɪˈskeɪp/,逃跑,The prisoners planned to escape through the tunnel.
+essential,/ɪˈsenʃl/,必要的,Water is essential for human survival.
+establish,/ɪˈstæblɪʃ/,建立,The university was established in the year 1900.
+estimate,/ˈestɪmeɪt/,估计,The repair costs are estimated at one thousand dollars.
+evaluate,/ɪˈvæljueɪt/,评估,The committee will evaluate all the proposals carefully.
+evidence,/ˈevɪdəns/,证据,There is strong evidence to support this theory.
+evil,/ˈiːvl/,邪恶的,The hero defeated the evil villain in the end.
+evolve,/ɪˈvɑːlv/,进化,Technology has evolved dramatically in recent decades.
+exaggerate,/ɪɡˈzædʒəreɪt/,夸大,Tends to exaggerate when telling stories.
+exceed,/ɪkˈsiːd/,超过,The results exceeded all our expectations.
+exception,/ɪkˈsepʃn/,例外,There is no exception to this rule.
+excess,/ɪkˈses/,过量,An excess of sugar is bad for your teeth.
+exchange,/ɪksˈtʃeɪndʒ/,交换,They exchanged gifts during the holiday season.
+excite,/ɪkˈsaɪt/,使兴奋,The news of the victory excited the entire city.
+exclaim,/ɪkˈskleɪm/,惊叫,She exclaimed with joy when she saw the surprise.
+exclude,/ɪkˈskluːd/,排除,The price excludes tax and delivery fees.
+execute,/ˈeksɪkjuːt/,执行,The team executed the plan perfectly.
+exhaust,/ɪɡˈzɔːst/,使精疲力竭,The long hike exhausted everyone in the group.
+exhibit,/ɪɡˈzɪbɪt/,展览,The artist will exhibit her paintings at the gallery.
+expand,/ɪkˈspænd/,扩展,The company plans to expand into new markets.
+expense,/ɪkˈspens/,费用,Travel expenses will be covered by the company.
+experiment,/ɪkˈsperɪmənt/,实验,The chemistry experiment produced unexpected results.
+expert,/ˈekspɜːrt/,专家,She is an expert in ancient history.
+explicit,/ɪkˈsplɪsɪt/,明确的,The instructions must be clear and explicit.
+explore,/ɪkˈsplɔːr/,探索,Children love to explore the world around them.
+explosion,/ɪkˈsploʊʒn/,爆炸,The explosion was heard miles away.
+export,/ɪkˈspɔːrt/,出口,The country exports oil to many nations.
+expose,/ɪkˈspoʊz/,揭露,The journalist exposed the corruption scandal.
+extend,/ɪkˈstend/,延长,The deadline has been extended by one week.
+external,/ɪkˈstɜːrnl/,外部的,The external walls of the building need painting.
+extraordinary,/ɪkˈstrɔːrdneri/,非凡的,She has extraordinary talent in music.
+extreme,/ɪkˈstriːm/,极端的,The region experiences extreme weather conditions.
+fabric,/ˈfæbrɪk/,面料,This fabric is very soft and comfortable.
+facility,/fəˈsɪləti/,设施,The sports facility includes a gym and a pool.
+factor,/ˈfæktər/,因素,Hard work is a key factor in achieving success.
+fade,/feɪd/,褪色,The color of the curtains faded over the years.
+failure,/ˈfeɪljər/,失败,Failure is the mother of success.
+faith,/feɪθ/,信仰,She has deep faith in the goodness of people.
+fame,/feɪm/,名声,He achieved worldwide fame as a musician.
+fancy,/ˈfænsi/,花哨的,She wore a fancy hat to the garden party.
+fare,/feɪr/,票价,The bus fare has increased this year.
+fate,/feɪt/,命运,She believed that fate brought them together.
+favor,/ˈfeɪvər/,帮忙,Can you do me a favor and pick up my package?
+feasible,/ˈfiːzəbl/,可行的,The plan is technically feasible but expensive.
+fee,/fiː/,费用,The tuition fee is due at the end of the month.
+feedback,/ˈfiːdbæk/,反馈,The teacher gave helpful feedback on my essay.
+fierce,/fɪrs/,猛烈的,The competition in this industry is fierce.
+figure,/ˈfɪɡjər/,人物,Einstein is one of the greatest scientific figures in history.
+finance,/ˈfaɪnæns/,金融,She works in the finance department of the bank.
+flame,/fleɪm/,火焰,The candle flame flickered in the breeze.
+flash,/flæʃ/,闪光,A flash of lightning lit up the night sky.
+flee,/fliː/,逃跑,The villagers fled from the approaching flood.
+flexible,/ˈfleksəbl/,灵活的,We need a more flexible schedule for the team.
+float,/floʊt/,漂浮,The leaves floated gently on the surface of the pond.
+flourish,/ˈflɜːrɪʃ/,繁荣,The arts flourished during the Renaissance period.
+focus,/ˈfoʊkəs/,集中,Please focus on the main topic of discussion.
+forbid,/fərˈbɪd/,禁止,Smoking is strictly forbidden in this building.
+forecast,/ˈfɔːrkæst/,预测,The weather forecast predicts rain tomorrow.
+forever,/fərˈevər/,永远,Nothing lasts forever in this world.
+forgive,/fərˈɡɪv/,原谅,She found it hard to forgive him for the betrayal.
+format,/ˈfɔːrmæt/,格式,Please save the file in PDF format.
+former,/ˈfɔːrmər/,以前的,The former president gave a speech at the event.
+formula,/ˈfɔːrmjələ/,公式,The scientist discovered a new mathematical formula.
+fortune,/ˈfɔːrtʃuːn/,运气,She had the fortune of meeting her idol in person.
+found,/faʊnd/,创立,The company was founded in the early 1990s.
+fraction,/ˈfrækʃn/,分数,Only a small fraction of applicants were accepted.
+framework,/ˈfreɪmwɜːrk/,框架,We need a clear framework for the new policy.
+frequent,/ˈfriːkwənt/,频繁的,Frequent exercise is good for your health.
+friction,/ˈfrɪkʃn/,摩擦,There was a lot of friction between the two departments.
+frown,/fraʊn/,皱眉,She frowned when she heard the bad news.
+frustrate,/ˈfrʌstreɪt/,使沮丧,The lack of progress frustrated the entire team.
+fulfill,/fʊlˈfɪl/,实现,She finally fulfilled her childhood dream.
+fundamental,/ˌfʌndəˈmentl/,基本的,Reading is a fundamental skill for all students.
+funeral,/ˈfjuːnərəl/,葬礼,Hundreds of people attended the funeral.
+furnish,/ˈfɜːrnɪʃ/,布置,They furnished their new apartment with modern furniture.
+gaze,/ɡeɪz/,凝视,She gazed at the stars in the night sky.
+gender,/ˈdʒendər/,性别,Gender equality is a basic human right.
+genius,/ˈdʒiːniəs/,天才,Mozart was a musical genius.
+genuine,/ˈdʒenjuɪn/,真正的,Her concern for others is completely genuine.
+gesture,/ˈdʒestʃər/,手势,He made a friendly gesture to welcome the guests.
+global,/ˈɡloʊbl/,全球的,Climate change is a global issue that affects everyone.
+globe,/ɡloʊb/,地球,She has traveled all around the globe.
+glory,/ˈɡlɔːri/,光荣,The athlete won glory for her country at the Olympics.
+govern,/ˈɡʌvərn/,统治,The elected officials govern the country on behalf of the people.
+grace,/ɡreɪs/,优雅,She moved with incredible grace on the dance floor.
+gradual,/ˈɡrædʒuəl/,逐渐的,There has been a gradual improvement in air quality.
+grant,/ɡrænt/,拨款,The university received a large research grant.
+grasp,/ɡræsp/,理解,He quickly grasped the concept of the lesson.
+grateful,/ˈɡreɪtfl/,感激的,I am grateful for all the support you have given me.
+grave,/ɡreɪv/,严重的,Pollution poses a grave threat to public health.
+grief,/ɡriːf/,悲伤,She was overcome with grief after losing her mother.
+grip,/ɡrɪp/,紧握,He gripped the rope tightly during the storm.
+gross,/ɡroʊs/,总的,The gross income of the company doubled this year.
+guarantee,/ˌɡærənˈtiː/,保证,The product comes with a two-year guarantee.
+guilty,/ˈɡɪlti/,有罪的,The jury found the defendant guilty of fraud.
+halt,/hɔːlt/,停止,Production came to a sudden halt due to the power failure.
+handle,/ˈhændl/,处理,She can handle pressure very well.
+harbor,/ˈhɑːrbər/,港口,The ship returned to the harbor after the storm.
+harmony,/ˈhɑːrməni/,和谐,The community lives in harmony with nature.
+harsh,/hɑːrʃ/,严厉的,The harsh winter made travel very difficult.
+harvest,/ˈhɑːrvɪst/,收获,The farmers celebrated a successful harvest.
+hazard,/ˈhæzərd/,危险,Smoking is a serious health hazard.
+headline,/ˈhedlaɪn/,头条,The headline of today's newspaper caught everyone's attention.
+heritage,/ˈherɪtɪdʒ/,遗产,The ancient temple is part of our cultural heritage.
+heroic,/hɪˈroʊɪk/,英勇的,The firefighter made a heroic rescue from the burning building.
+hesitation/,/ˌhezɪˈteɪʃn/,犹豫,Without any hesitation she jumped into the river to save the child.
+hollow,/ˈhɑːloʊ/,空的,The tree trunk was completely hollow inside.
+horrible,/ˈhɔːrəbl/,可怕的,The traffic jam was absolutely horrible this morning.
+hostile,/ˈhɑːstl/,敌对的,The soldiers faced a hostile environment in the desert.
+household,/ˈhaʊshoʊld/,家庭,Household chores should be shared among all family members.
+humble,/ˈhʌmbl/,谦虚的,Despite his success he remains a very humble person.
+hunger,/ˈhʌŋɡər/,饥饿,Millions of people around the world suffer from hunger.
+ideal,/aɪˈdɪəl/,理想的,This is an ideal place for a family vacation.
+identical,/aɪˈdentɪkl/,完全相同的,The two paintings look almost identical to each other.
+identify,/aɪˈdentɪfaɪ/,识别,Can you identify the bird by its song?
+ignorant,/ˈɪɡnərənt/,无知的,He was ignorant of the danger that lay ahead.
+illegal,/ɪˈliːɡl/,非法的,It is illegal to drive without a license.
+illustrate,/ˈɪləstreɪt/,说明,The teacher used a diagram to illustrate the concept.
+image,/ˈɪmɪdʒ/,形象,The company is trying to improve its public image.
+immense,/ɪˈmens/,巨大的,The project requires an immense amount of planning.
+immune,/ɪˈmjuːn/,免疫的,Regular exercise can boost your immune system.
+impact,/ˈɪmpækt/,影响,Technology has had a huge impact on education.
+implement,/ˈɪmplɪment/,实施,The school will implement new rules starting next semester.
+imply,/ɪmˈplaɪ/,暗示,His silence seemed to imply agreement with the plan.
+impose,/ɪmˈpoʊz/,强加,The government imposed a tax on imported goods.
+impress,/ɪmˈpres/,给人留下印象,Her performance impressed the entire audience.
+improve,/ɪmˈpruːv/,改善,The new policy will improve working conditions for everyone.
+incident,/ˈɪnsɪdənt/,事件,The police investigated the incident thoroughly.
+incline,/ɪnˈklaɪn/,倾斜,The road begins to incline steeply after the bridge.
+incredible,/ɪnˈkredəbl/,难以置信的,The sunset over the ocean was absolutely incredible.
+independence,/ˌɪndɪˈpendəns/,独立,The country gained independence in the year 1947.
+indicate,/ˈɪndɪkeɪt/,表明,The research results indicate a strong connection between diet and health.
+individual,/ˌɪndɪˈvɪdʒuəl/,个人,Each individual has the right to express their opinion.
+inevitable,/ɪnˈevɪtəbl/,不可避免的,Change is an inevitable part of life.
+infant,/ˈɪnfənt/,婴儿,The infant slept peacefully in the crib.
+inflation,/ɪnˈfleɪʃn/,通货膨胀,High inflation reduces the purchasing power of consumers.
+influence,/ˈɪnfluəns/,影响,Parents have a strong influence on their children's behavior.
+inform,/ɪnˈfɔːrm/,通知,Please inform us of any changes to your schedule.
+ingredient,/ɪnˈɡriːdiənt/,成分,Fresh ingredients make a big difference in cooking.
+initial,/ɪˈnɪʃl/,最初的,Her initial reaction was one of surprise.
+innocent,/ˈɪnəsnt/,无辜的,The jury declared the man innocent of all charges.
+innovation,/ˌɪnəˈveɪʃn/,创新,Innovation drives progress in every field.
+input,/ˈɪnpʊt/,输入,Your input on this project is greatly appreciated.
+inquire,/ɪnˈkwaɪr/,询问,She inquired about the price of the item.
+insert,/ɪnˈsɜːrt/,插入,Please insert your card into the machine.
+insist,/ɪnˈsɪst/,坚持,He insisted on paying for everyone's dinner.
+inspect,/ɪnˈspekt/,检查,A mechanic inspected the car before the long trip.
+inspire,/ɪnˈspaɪər/,激励,Her story inspired many young people to follow their dreams.
+install,/ɪnˈstɔːl/,安装,They installed a new security system in the house.
+instance,/ˈɪnstəns/,例子,There are many instances where teamwork produces better results.
+institute,/ˈɪnstɪtuːt/,学院,He works at a famous research institute.
+instruct,/ɪnˈstrʌkt/,指导,The manual instructs users on how to assemble the furniture.
+instrument,/ˈɪnstrəmənt/,工具,The piano is her favorite musical instrument.
+insult,/ɪnˈsʌlt/,侮辱,He took it as an insult when no one laughed at his joke.
+integrate/,/ˈɪntɪɡreɪt/,整合,The school works to integrate technology into the classroom.
+intellectual/,/ˌɪntəˈlektʃuəl/,知识分子,She enjoys intellectual discussions about philosophy.
+intelligence/,/ɪnˈtelɪdʒəns/,智力,Emotional intelligence is just as important as IQ.
+intense/,/ɪnˈtens/,强烈的,The heat during summer here is truly intense.
+intention/,/ɪnˈtenʃn/,意图,She had no intention of leaving the company.
+interact/,/ˌɪntərˈækt/,互动,Children learn by interacting with each other.
+interpret/,/ɪnˈtɜːrprɪt/,解释,Different cultures may interpret the same gesture differently.
+interrupt/,/ˌɪntəˈrʌpt/,打断,Please do not interrupt while someone else is speaking.
+intervene/,/ˌɪntərˈviːn/,干预,The government had to intervene to stop the crisis.
+intimate/,/ˈɪntɪmət/,亲密的,They shared an intimate conversation over dinner.
+invade/,/ɪnˈveɪd/,入侵,The army invaded the neighboring country at dawn.
+invest/,/ɪnˈvest/,投资,She decided to invest her savings in the stock market.
+investigate/,/ɪnˈvestɪɡeɪt/,调查,The police are investigating the cause of the accident.
+invisible/,/ɪnˈvɪzəbl/,看不见的,Germs are invisible to the naked eye.
+isolate/,/ˈaɪsəleɪt/,隔离,The patient was isolated to prevent the spread of infection.
+issue/,/ˈɪʃuː/,问题,Climate change is the most pressing issue of our time.
+jail,/dʒeɪl/,监狱,He was sent to jail for committing fraud.
+jealous,/ˈdʒeləs/,嫉妒的,She felt jealous when her friend got the promotion.
+joint,/dʒɔɪnt/,联合的,The two countries signed a joint declaration.
+journal/,/ˈdʒɜːrnl/,日记,She writes in her journal every night before bed.
+judge,/dʒʌdʒ/,判断,It is not right to judge people by their appearance.
+junior/,/ˈdʒuːniər/,初级的,He is a junior employee who joined the company last year.
+jury/,/ˈdʒʊri/,陪审团,The jury reached a unanimous verdict after hours of discussion.
+justice/,/ˈdʒʌstɪs/,正义,The lawyer dedicated her career to fighting for justice.
+keen,/kiːn/,敏锐的,She has a keen eye for detail in her work.
+keyboard/,/ˈkiːbɔːrd/,键盘,The musician played a beautiful melody on the keyboard.
+knock,/nɑːk/,敲,Someone knocked on the door late at night.
+knowledge/,/ˈnɑːlɪdʒ/,知识,Knowledge is the greatest treasure one can possess.
+lack,/læk/,缺乏,The project failed due to a lack of funding.
+landscape/,/ˈlændskeɪp/,风景,The landscape in this region is breathtaking.
+lane,/leɪn/,车道,Stay in the right lane when driving on the highway.
+latter/,/ˈlætər/,后者,Of the two proposals I prefer the latter.
+laughter/,/ˈlæftər/,笑声,The room was filled with laughter and joy.
+lawyer/,/ˈlɔːjər/,律师,The lawyer defended her client in court.
+lean,/liːn/,倾斜,She leaned against the wall to rest for a moment.
+lecture/,/ˈlektʃər/,讲座,The professor delivered a fascinating lecture on ancient history.
+legal/,/ˈliːɡl/,法律的,You need legal permission to build on this land.
+leisure/,/ˈliːʒər/,休闲,Reading is her favorite leisure activity.
+liberal/,/ˈlɪbərəl/,自由的,The university promotes a liberal arts education.
+liberate/,/ˈlɪbəreɪt/,解放,The soldiers worked to liberate the occupied town.
+license/,/ˈlaɪsns/,许可证,You must have a valid license to operate this machinery.
+likewise/,/ˈlaɪkwaɪz/,同样地,She enjoyed the film and her friends likewise loved it.
+literary/,/ˈlɪtəreri/,文学的,She won a prestigious literary award for her novel.
+load,/loʊd/,负载,The truck was carrying a heavy load of bricks.
+loan,/loʊn/,贷款,She took out a loan to buy her first house.
+logical/,/ˈlɑːdʒɪkl/,合乎逻辑的,His argument was clear and perfectly logical.
+loose,/luːs/,松的,The screw was loose and needed to be tightened.
+loyal/,/ˈlɔɪəl/,忠诚的,He has been a loyal friend for over twenty years.
+luxury/,/ˈlʌkʃəri/,奢侈,Staying at a five-star hotel is a real luxury.
+mainstream/,/ˈmeɪnstriːm/,主流的,This idea has become mainstream in recent years.
+massive/,/ˈmæsɪv/,巨大的,The earthquake caused massive destruction across the region.
+mature,/məˈtʊr/,成熟的,She is very mature for her age.
+maximum/,/ˈmæksɪməm/,最大的,The maximum capacity of the theater is five hundred people.
+mechanism/,/ˈmekənɪzəm/,机制,Scientists studied the mechanism behind cell growth.
+medium/,/ˈmiːdiəm/,中等的,I would like a medium-sized coffee please.
+membership/,/ˈmembərʃɪp/,会员资格,Annual membership includes access to all facilities.
+mental/,/ˈmentl/,精神的,Mental health is just as important as physical health.
+merchant/,/ˈmɜːrtʃənt/,商人,The merchant sold goods from all over the world.
+mercy/,/ˈmɜːrsi/,仁慈,The judge showed mercy to the first-time offender.
+merit/,/ˈmerɪt/,优点,Each proposal has its own merit and should be considered.
+migrate,/ˈmaɪɡreɪt/,迁移,Many birds migrate south during the winter.
+military/,/ˈmɪlɪteri/,军事的,He served in the military for ten years.
+mineral/,/ˈmɪnərəl/,矿物,This region is rich in mineral resources.
+minimum/,/ˈmɪnɪməm/,最低的,The minimum age for voting is eighteen years.
+minister/,/ˈmɪnɪstər/,部长,The prime minister addressed the nation on television.
+minor/,/ˈmaɪnər/,较小的,There were only minor issues with the new software.
+miracle/,/ˈmɪrəkl/,奇迹,It was a miracle that everyone survived the crash.
+mission/,/ˈmɪʃn/,任务,The astronauts completed their mission successfully.
+mobile/,/ˈmoʊbl/,移动的,Mobile phones have changed the way we communicate.
+moderate/,/ˈmɑːdərət/,适度的,Moderate exercise several times a week is recommended.
+modify/,/ˈmɑːdɪfaɪ/,修改,We need to modify the plan to fit the new requirements.
+molecule/,/ˈmɑːlɪkjuːl/,分子,Water is made up of hydrogen and oxygen molecules.
+monitor/,/ˈmɑːnɪtər/,监控,The nurse monitored the patient's heart rate throughout the night.
+monument/,/ˈmɑːnjumənt/,纪念碑,The monument stands in the center of the city square.
+moral/,/ˈmɔːrəl/,道德的,She faced a difficult moral dilemma at work.
+moreover,/mɔːrˈoʊvər/,此外,The plan is effective and moreover it is affordable.
+mortgage/,/ˈmɔːrɡɪdʒ/,抵押贷款,They applied for a mortgage to buy their first home.
+motion/,/ˈmoʊʃn/,运动,The gentle motion of the boat made her feel sleepy.
+motive,/ˈmoʊtɪv/,动机,The police are investigating the motive behind the crime.
+multiple/,/ˈmʌltɪpl/,多个的,She holds multiple degrees from different universities.
+mutual/,/ˈmjuːtʃuəl/,相互的,They developed a mutual respect over the years.
+mystery/,/ˈmɪstəri/,神秘,The disappearance of the plane remains a mystery.
+narrative/,/ˈnærətɪv/,叙述,The novel has a very compelling narrative structure.
+narrow,/ˈnæroʊ/,狭窄的,The road is too narrow for two cars to pass.
+nasty,/ˈnæsti/,令人不快的,He said some very nasty things during the argument.
+native,/ˈneɪtɪv/,本地的,English is her native language.
+naval/,/ˈneɪvl/,海军的,The naval base is located along the southern coast.
+neat,/niːt/,整洁的,She always keeps her desk neat and organized.
+negative,/ˈneɡətɪv/,消极的,Try not to focus on the negative aspects of the situation.
+neglect,/nɪˈɡlekt/,忽视,Do not neglect your health while pursuing your career.
+nerve,/nɜːrv/,神经,She gathered all her nerve and spoke in front of the crowd.
+nevertheless/,/ˌnevərðəˈles/,然而,The weather was bad; nevertheless the game continued.
+noble,/ˈnoʊbl/,高尚的,She dedicated her life to a noble cause.
+nonsense,/ˈnɑːnsens/,胡说,Stop talking nonsense and focus on the real issue.
+norm,/nɔːrm/,标准,Working from home has become the new norm.
+notable,/ˈnoʊtəbl/,值得注意的,There has been a notable increase in online shopping.
+notion,/ˈnoʊʃn/,概念,The notion that money can buy happiness is debatable.
+numerous,/ˈnuːmərəs/,许多的,Numerous studies support the benefits of regular exercise.
+nursery,/ˈnɜːrsəri/,托儿所,The children played happily in the nursery.
+nutrition,/nuˈtrɪʃn/,营养,Good nutrition is essential for a child's development.
+obey,/əˈbeɪ/,服从,Soldiers are expected to obey orders without question.
+objective,/əbˈdʒektɪv/,目标,The main objective of the project is to reduce costs.
+obligation/,/ˌɑːblɪˈɡeɪʃn/,义务,Paying taxes is a civic obligation.
+observe,/əbˈzɜːrv/,观察,Scientists observe the behavior of animals in the wild.
+obsess,/əbˈses/,痴迷,He is obsessed with collecting rare coins.
+obvious,/ˈɑːbviəs/,明显的,The answer to the question was quite obvious.
+occupation/,/ˌɑːkjuˈpeɪʃn/,职业,Teaching is a noble occupation that shapes the future.
+occupy,/ˈɑːkjupaɪ/,占据,The meeting occupied most of the afternoon.
+offend,/əˈfend/,冒犯,I did not mean to offend you with my comment.
+operate,/ˈɑːpəreɪt/,操作,Do you know how to operate this machine?
+opponent,/əˈpoʊnənt/,对手,She defeated her opponent in the final round of the tournament.
+oppose,/əˈpoʊz/,反对,Many citizens opposed the construction of the new highway.
+optimistic/,/ˌɑːptɪˈmɪstɪk/,乐观的,She remains optimistic about the future of the company.
+orbit,/ˈɔːrbɪt/,轨道,The satellite completed its orbit around the earth.
+organ,/ˈɔːrɡən/,器官,The heart is a vital organ in the human body.
+orient,/ˈɔːrient/,朝向,The building is oriented toward the south for maximum sunlight.
+origin,/ˈɔːrɪdʒɪn/,起源,The origin of this tradition dates back centuries.
+outcome,/ˈaʊtkʌm/,结果,The outcome of the election surprised everyone.
+outline,/ˈaʊtlaɪn/,概述,She provided a brief outline of her research findings.
+output,/ˈaʊtpʊt/,产出,The factory increased its output by twenty percent.
+overall,/ˈoʊvərɔːl/,总体的,The overall quality of the product has improved significantly.
+overcome/,/ˌoʊvərˈkʌm/,克服,She overcame many obstacles to reach her goal.
+overlook/,/ˌoʊvərˈlʊk/,俯瞰,The hotel room overlooks the beautiful garden.
+overseas/,/ˌoʊvərˈsiːz/,海外的,Many students choose to study overseas.
+overtake/,/ˌoʊvərˈteɪk/,超过,The new company quickly overtook its competitors.
+overwhelm/,/ˌoʊvərˈwelm/,压倒,The amount of work can sometimes overwhelm new employees.
+owe,/oʊ/,欠,I owe you a great deal for all your kindness.
+pace,/peɪs/,步伐,She quickened her pace to catch up with the group.
+pale,/peɪl/,苍白的,He turned pale when he heard the shocking news.
+panic,/ˈpænɪk/,恐慌,Do not panic in case of an emergency.
+parallel,/ˈpærəlel/,平行的,The two roads run parallel to each other.
+parliament/,/ˈpɑːrləmənt/,议会,The parliament debated the new healthcare policy.
+partial/,/ˈpɑːrʃl/,部分的,The project is only a partial solution to the problem.
+participate,/pɑːrˈtɪsɪpeɪt/,参加,All students are encouraged to participate in the event.
+partnership/,/ˈpɑːrtnərʃɪp/,合作关系,The two companies formed a successful partnership.
+passive/,/ˈpæsɪv/,被动的,He took a passive role in the group discussion.
+path,/pæθ/,道路,Hard work is the path to success.
+pave,/peɪv/,铺设,The city paved the road with new asphalt.
+peak,/piːk/,顶峰,The athlete reached the peak of her career at age twenty-five.
+peculiar,/pɪˈkjuːliər/,奇特的,There was a peculiar smell coming from the kitchen.
+penalty/,/ˈpenəlti/,惩罚,The penalty for speeding in this area is very steep.
+perceive,/pərˈsiːv/,感知,She perceived a slight change in his tone of voice.
+permanent/,/ˈpɜːrmənənt/,永久的,They moved to the city in search of permanent employment.
+permit,/pərˈmɪt/,允许,Smoking is not permitted inside the building.
+persist,/pərˈsɪst/,坚持,If you persist in your efforts you will eventually succeed.
+personnel/,/ˌpɜːrsəˈnel/,人员,All personnel must attend the safety training session.
+perspective,/pərˈspektɪv/,视角,Traveling gives you a broader perspective on life.
+phenomenon,/fɪˈnɑːmɪnən/,现象,The northern lights are a spectacular natural phenomenon.
+philosophy,/fɪˈlɑːsəfi/,哲学,She studied philosophy at the university for four years.
+pioneer,/ˌpaɪəˈnɪr/,先驱,She was a pioneer in the field of genetic research.
+plantation,/plænˈteɪʃn/,种植园,The old plantation has been turned into a museum.
+platform,/ˈplætfɔːrm/,平台,Social media is a powerful platform for communication.
+plead,/pliːd/,恳求,He pleaded with the judge for a second chance.
+pledge,/pledʒ/,誓言,The company pledged to reduce carbon emissions by half.
+plot,/plɑːt/,情节,The movie has a very unexpected plot twist.
+plunge,/plʌndʒ/,跳入,She plunged into the cold water without hesitation.
+poison,/ˈpɔɪzn/,毒药,Some mushrooms contain a deadly poison.
+policy,/ˈpɑːləsi/,政策,The new school policy starts next semester.
+polish,/ˈpɑːlɪʃ/,擦亮,She polished the silverware until it sparkled.
+poll,/poʊl/,民意调查,The latest poll shows the candidate leading by a wide margin.
+popular,/ˈpɑːpjələr/,受欢迎的,This restaurant is very popular among local residents.
+portion,/ˈpɔːrʃn/,部分,Only a small portion of the budget was spent on marketing.
+portray,/pɔːrˈtreɪ/,描绘,The film portrays the life of a famous scientist.
+pose,/poʊz/,造成,Climate change poses a serious threat to agriculture.
+positive,/ˈpɑːzətɪv/,积极的,She always maintains a positive attitude even during tough times.
+postpone,/poʊstˈpoʊn/,推迟,The meeting was postponed until next week.
+potential,/pəˈtenʃl/,潜力,Every child has the potential to succeed in life.
+poverty,/ˈpɑːvərti/,贫困,Many families in the region still live in poverty.
+practical,/ˈpræktɪkl/,实际的,We need a practical solution that works in the real world.
+pray,/preɪ/,祈祷,She prayed for the safety of her family.
+precious,/ˈpreʃəs/,珍贵的,Time is the most precious resource we have.
+precise,/prɪˈsaɪs/,精确的,The scientist took precise measurements of the sample.
+predict,/prɪˈdɪkt/,预测,It is difficult to predict the outcome of the election.
+preserve,/prɪˈzɜːrv/,保护,We must preserve our natural resources for future generations.
+press,/pres/,按,Press the button to start the machine.
+pretend,/prɪˈtend/,假装,He pretended to be asleep when his mother entered the room.
+prevail,/prɪˈveɪl/,占上风,Justice will prevail in the end.
+previous,/ˈpriːviəs/,以前的,She had no previous experience in this field.
+primarily,/praɪˈmerəli/,主要地,The course is designed primarily for beginners.
+prime,/praɪm/,首要的,Safety is our prime concern at all times.
+primitive,/ˈprɪmɪtɪv/,原始的,The tribe lived in primitive conditions deep in the forest.
+principal,/ˈprɪnsəpl/,主要的,The principal reason for the delay was bad weather.
+principle,/ˈprɪnsəpl/,原则,Fairness is a fundamental principle of justice.
+priority,/praɪˈɔːrəti/,优先事项,Health should always be your top priority.
+privilege,/ˈprɪvəlɪdʒ/,特权,Education is a right and not a privilege.
+probe,/proʊb/,探测,The space probe traveled millions of miles to reach Mars.
+procedure,/prəˈsiːdʒər/,程序,Please follow the standard procedure for filing a complaint.
+process,/ˈprɑːses/,过程,Learning a language is a long and gradual process.
+productive,/prəˈdʌktɪv/,高效的,She had a very productive day at the office.
+profession,/prəˈfeʃn/,职业,Medicine is a respected profession around the world.
+profile,/ˈproʊfaɪl/,简介,The company published a profile of its new CEO.
+profit,/ˈprɑːfɪt/,利润,The company reported record profits this quarter.
+profound,/prəˈfaʊnd/,深刻的,The book had a profound impact on her worldview.
+progress,/ˈprɑːɡres/,进步,She has made remarkable progress in her studies.
+prominent,/ˈprɑːmɪnənt/,杰出的,He is a prominent figure in the field of physics.
+promote,/prəˈmoʊt/,促进,The campaign aims to promote healthy eating habits.
+prompt,/prɑːmpt/,迅速的,The prompt response from the fire department saved many lives.
+proportion,/prəˈpɔːrʃn/,比例,A large proportion of the population lives in urban areas.
+proposal,/prəˈpoʊzl/,提案,The committee approved the new budget proposal.
+propose,/prəˈpoʊz/,提议,She proposed a new strategy to increase sales.
+prospect,/ˈprɑːspekt/,前景,The career prospects in this field are very promising.
+prosperity,/prɑːˈsperəti/,繁荣,The nation enjoyed a period of great prosperity.
+protest,/ˈproʊtest/,抗议,Thousands of people joined the peaceful protest.
+prove,/pruːv/,证明,She proved her critics wrong with an outstanding performance.
+provide,/prəˈvaɪd/,提供,The hotel provides free breakfast for all guests.
+provoke,/prəˈvoʊk/,激怒,His rude comments provoked anger among the audience.
+publish,/ˈpʌblɪʃ/,出版,She published her first novel at the age of twenty-five.
+punctual,/ˈpʌŋktʃuəl/,守时的,She is always punctual for every meeting.
+purchase,/ˈpɜːrtʃəs/,购买,She made a purchase at the local bookstore.
+pursue,/pərˈsuː/,追求,He decided to pursue a career in environmental science.
+puzzle,/ˈpʌzl/,谜题,The mystery novel kept the reader solving the puzzle until the end.
+qualify,/ˈkwɒlɪfaɪ/,使合格,Her experience qualifies her for the senior position.
+quest,/kwest/,探索,The team embarked on a quest to find the lost treasure.
+quote,/kwoʊt/,引用,She likes to quote her grandmother's wise words.
+racial,/ˈreɪʃl/,种族的,Racial harmony requires understanding and mutual respect.
+radiation/,/ˌreɪdiˈeɪʃn/,辐射,Excessive exposure to radiation is harmful to health.
+radical,/ˈrædɪkl/,根本的,The plan calls for radical reform of the education system.
+rage,/reɪdʒ/,愤怒,He was filled with rage after hearing the unfair decision.
+random,/ˈrændəm/,随机的,The winning numbers were selected at random.
+range,/reɪndʒ/,范围,The store offers a wide range of products.
+rapid,/ˈræpɪd/,快速的,The city has experienced rapid population growth.
+ratio,/ˈreɪʃioʊ/,比率,The ratio of teachers to students is one to twenty.
+rational,/ˈræʃnəl/,理性的,We need to make a rational decision based on facts.
+raw,/rɔː/,生的,Do not eat raw meat because it may contain bacteria.
+react,/riˈækt/,反应,How did she react when she heard the news?
+realistic/,/ˌriːəˈlɪstɪk/,现实的,We need to set realistic goals for the project.
+realm,/relm/,领域,Space exploration opens up a whole new realm of possibilities.
+reasonable,/ˈriːznəbl/,合理的,The price of the ticket is very reasonable.
+rebel,/ˈrebl/,反叛者,The rebel group fought against the ruling government.
+recall,/rɪˈkɔːl/,回忆,She could not recall where she had left her keys.
+recover,/rɪˈkʌvər/,恢复,It took him several months to recover from the illness.
+recruit,/rɪˈkruːt/,招募,The company plans to recruit fifty new graduates this year.
+reform,/rɪˈfɔːrm/,改革,The government announced major reforms in healthcare.
+refugee/,/ˌrefjuˈdʒiː/,难民,The camp provided shelter for thousands of refugees.
+regulate,/ˈreɡjuleɪt/,监管,The government regulates the food industry to ensure safety.
+reject,/rɪˈdʒekt/,拒绝,The university rejected his application for admission.
+relate,/rɪˈleɪt/,关联,It is hard to relate to a character in a poorly written story.
+release,/rɪˈliːs/,释放,The company will release a new version of the software next month.
+relevant,/ˈreləvənt/,相关的,Please keep your comments relevant to the topic.
+reliable,/rɪˈlaɪəbl/,可靠的,She is a very reliable person who never breaks a promise.
+relieve,/rɪˈliːv/,缓解,The medicine helped relieve her headache quickly.
+reluctant,/rɪˈlʌktənt/,不情愿的,He was reluctant to admit that he was wrong.
+rely,/rɪˈlaɪ/,依赖,You can rely on me for support whenever you need it.
+remark,/rɪˈmɑːrk/,评论,She made a clever remark during the discussion.
+remarkable,/rɪˈmɑːrkəbl/,非凡的,The recovery of the patient was truly remarkable.
+remedy,/ˈremədi/,补救办法,There is no easy remedy for this complex problem.
+remote,/rɪˈmoʊt/,偏远的,The village is located in a remote mountain area.
+remove,/rɪˈmuːv/,移除,Please remove your shoes before entering the temple.
+render,/ˈrendər/,使成为,The heavy rain rendered the roads impassable.
+renew,/rɪˈnuː/,更新,You need to renew your membership before it expires.
+represent/,/ˌreprɪˈzent/,代表,The lawyer represents the interests of her client.
+reputation/,/ˌrepjuˈteɪʃn/,声誉,The school has an excellent reputation for academic excellence.
+request,/rɪˈkwest/,请求,She submitted a formal request for time off.
+require,/rɪˈkwaɪr/,要求,This job requires at least three years of experience.
+rescue,/ˈreskjuː/,营救,The rescue team arrived just in time to save the hikers.
+research,/rɪˈsɜːrtʃ/,研究,The university conducts groundbreaking research in medicine.
+resemble,/rɪˈzembl/,相似,She resembles her mother in many ways.
+reserve,/rɪˈzɜːrv/,预订,I would like to reserve a table for two please.
+resign,/rɪˈzaɪn/,辞职,He decided to resign from his position to start his own business.
+resist,/rɪˈzɪst/,抵抗,She could not resist the temptation of chocolate cake.
+resolve,/rɪˈzɑːlv/,解决,The two neighbors resolved their dispute through dialogue.
+resort,/rɪˈzɔːrt/,度假胜地,The beach resort attracts tourists from all over the world.
+resource,/ˈriːsɔːrs/,资源,Natural resources must be used wisely and sustainably.
+respond,/rɪˈspɑːnd/,回应,She did not respond to any of his messages.
+restore,/rɪˈstɔːr/,恢复,The old painting was carefully restored by experts.
+restrict,/rɪˈstrɪkt/,限制,The new law restricts the sale of alcohol to minors.
+retain,/rɪˈteɪn/,保留,The company managed to retain its most talented employees.
+reveal,/rɪˈviːl/,揭示,The investigation revealed some surprising facts.
+revenue,/ˈrevənuː/,收入,The company's annual revenue exceeded one billion dollars.
+reverse,/rɪˈvɜːrs/,逆转,The government decided to reverse the controversial policy.
+revise,/rɪˈvaɪz/,修订,She revised her essay several times before submitting it.
+revolution/,/ˌrevəˈluːʃn/,革命,The industrial revolution transformed the entire economy.
+reward,/rɪˈwɔːrd/,奖励,Hard work will eventually bring its own reward.
+rid,/rɪd/,摆脱,She finally rid herself of the bad habit.
+rigid,/ˈrɪdʒɪd/,僵硬的,The rules are too rigid and need to be more flexible.
+risk,/rɪsk/,风险,Investing in the stock market always involves some risk.
+rival,/ˈraɪvl/,竞争对手,The two rival companies fought for market dominance.
+robust,/roʊˈbʌst/,强健的,The economy showed robust growth last quarter.
+rough,/rʌf/,粗糙的,The surface of the rock felt rough under her hands.
+routine,/ruːˈtiːn/,日常,Exercise should be part of your daily routine.
+rural,/ˈrʊrəl/,农村的,She grew up in a small rural community.
+sacred,/ˈseɪkrɪd/,神圣的,The temple is considered a sacred place by the locals.
+sake,/seɪk/,缘故,She moved abroad for the sake of her children's education.
+satisfy,/ˈsætɪsfaɪ/,满足,The meal did not satisfy his hunger at all.
+scan,/skæn/,扫描,She scanned the document quickly for any errors.
+scandal,/ˈskændl/,丑闻,The political scandal forced the minister to resign.
+scarce,/skers/,稀缺的,Clean drinking water is scarce in many parts of the world.
+scare,/skeər/,惊吓,Loud noises can scare young children.
+scene,/siːn/,场景,The final scene of the movie brought tears to my eyes.
+scheme,/skiːm/,计划,The government introduced a new scheme to support small businesses.
+scholar,/ˈskɑːlər/,学者,The scholar published dozens of papers on ancient history.
+scope,/skoʊp/,范围,The scope of this project is much larger than we expected.
+scratch,/skrætʃ/,抓痕,There was a deep scratch on the surface of the table.
+screen,/skriːn/,屏幕,She spent too many hours staring at the screen.
+seal,/siːl/,密封,Make sure to seal the package before mailing it.
+section,/ˈsekʃn/,部分,Please refer to the third section of the manual.
+secure,/sɪˈkjʊr/,安全的,Make sure your password is secure enough to prevent hacking.
+seek,/siːk/,寻求,She sought advice from her mentor about the career change.
+segment,/ˈseɡmənt/,片段,The final segment of the show was the most exciting.
+select,/sɪˈlekt/,选择,Please select your preferred language from the menu.
+senate,/ˈsenət/,参议院,The senate voted to approve the new legislation.
+senior,/ˈsiːniər/,高级的,He was promoted to a senior position in the company.
+sensitive,/ˈsensətɪv/,敏感的,She is very sensitive to criticism from others.
+sequence,/ˈsiːkwəns/,顺序,The events occurred in a very logical sequence.
+severe,/sɪˈvɪr/,严重的,The storm caused severe damage to the coastal town.
+shallow,/ˈʃæloʊ/,浅的,The water near the shore is very shallow.
+shelter,/ˈʃeltər/,庇护所,The charity provides shelter for homeless families.
+shift,/ʃɪft/,转变,There has been a major shift in public opinion on the issue.
+shrink,/ʃrɪŋk/,缩小,The company had to shrink its workforce due to budget cuts.
+signal,/ˈsɪɡnəl/,信号,The traffic signal turned red and all cars stopped.
+significance,/sɪɡˈnɪfɪkəns/,重要性,The discovery of penicillin was of great significance to medicine.
+significant,/sɪɡˈnɪfɪkənt/,重大的,There has been a significant improvement in living standards.
+simplify,/ˈsɪmplɪfaɪ/,简化,We need to simplify the instructions for new users.
+simultaneous/,/ˌsaɪmlˈteɪniəs/,同时的,The two events happened in simultaneous fashion.
+sincere,/sɪnˈsɪr/,真诚的,She offered a sincere apology for the misunderstanding.
+site,/saɪt/,场地,The construction site is just around the corner.
+sketch,/sketʃ/,素描,He drew a quick sketch of the landscape in his notebook.
+slight,/slaɪt/,轻微的,There was a slight change in the temperature overnight.
+slip,/slɪp/,滑倒,She slipped on the wet floor and hurt her knee.
+slogan,/ˈsloʊɡən/,口号,The company's new slogan is easy to remember.
+slope,/sloʊp/,斜坡,The children love to play on the grassy slope behind the school.
+smart,/smɑːrt/,聪明的,She is one of the smartest students in the entire school.
+snap,/snæp/,折断,The branch snapped under the weight of the snow.
+soar,/sɔːr/,飙升,Temperatures are expected to soar this weekend.
+sole,/soʊl/,唯一的,She was the sole survivor of the accident.
+solid,/ˈsɑːlɪd/,固体的,Water becomes solid when it freezes into ice.
+somewhat,/ˈsʌmwʌt/,稍微,The results were somewhat disappointing but still promising.
+sophisticated,/səˈfɪstɪkeɪtɪd/,复杂的,The new software has a very sophisticated design.
+soul,/soʊl/,灵魂,Music has the power to touch the human soul.
+source,/sɔːrs/,来源,The river is the main source of drinking water for the city.
+specific,/spəˈsɪfɪk/,具体的,Can you give me a specific example of what you mean?
+spectacular,/spekˈtækjələr/,壮观的,The fireworks display was truly spectacular.
+spectrum,/ˈspektrəm/,光谱,The visible spectrum includes all the colors of the rainbow.
+speculate,/ˈspekjuleɪt/,推测,Analysts speculate that the market will recover soon.
+sphere,/sfɪr/,领域,She is a leading expert in the sphere of renewable energy.
+spirit,/ˈspɪrɪt/,精神,The team showed great spirit even after losing the match.
+spite,/spaɪt/,恶意,She helped him out of kindness and not out of spite.
+split,/splɪt/,分裂,The company decided to split into two separate divisions.
+sponsor,/ˈspɑːnsər/,赞助,The event was sponsored by a major technology company.
+spot,/spɑːt/,发现,She spotted a rare bird in the garden this morning.
+spread,/spred/,传播,News of the discovery spread quickly across the scientific community.
+spy,/spaɪ/,间谍,The spy gathered classified information for years.
+squeeze,/skwiːz/,挤压,She squeezed the tube of toothpaste to get the last drop.
+stable,/ˈsteɪbl/,稳定的,The patient is now in stable condition after the surgery.
+staff,/stæf/,员工,The hospital has a dedicated staff of nurses and doctors.
+stain,/steɪn/,污渍,The coffee stain on the white shirt would not come out.
+stake,/steɪk/,利害关系,There is a lot at stake in the upcoming negotiation.
+standard,/ˈstændərd/,标准,The company sets very high standards for product quality.
+starve,/stɑːrv/,挨饿,Without food supplies the animals would starve.
+state,/steɪt/,声明,The president issued a state of emergency declaration.
+statistics,/stəˈtɪstɪks/,统计数据,According to statistics the average lifespan has increased.
+status,/ˈsteɪtəs/,地位,Her status in the company rose after the successful project.
+steady,/ˈstedi/,稳定的,The economy has shown steady growth over the past decade.
+steep,/stiːp/,陡峭的,The steep mountain trail was difficult to climb.
+stem,/stem/,起源,The problem stems from a lack of communication.
+stimulate,/ˈstɪmjuleɪt/,刺激,The new policy is designed to stimulate economic growth.
+stir,/stɜːr/,搅拌,She stirred the soup slowly while it cooked on the stove.
+stock,/stɑːk/,库存,The store has a large stock of winter clothing.
+strain,/streɪn/,压力,Working long hours can put a strain on your health.
+strategic,/strəˈtiːdʒɪk/,战略的,The company made a strategic decision to enter the Asian market.
+strength,/streŋθ/,力量,Teamwork is our greatest strength.
+stretch,/stretʃ/,伸展,She stretched her arms above her head after sitting for hours.
+strict,/strɪkt/,严格的,The school has very strict rules about uniform policy.
+strike,/straɪk/,罢工,The workers went on strike to demand better conditions.
+structure,/ˈstrʌktʃər/,结构,The building has a very unusual architectural structure.
+stuff,/stʌf/,东西,She packed all her stuff into a single suitcase.
+subject,/ˈsʌbdʒekt/,主题,The subject of today's lecture is climate change.
+submit,/səbˈmɪt/,提交,Please submit your report before Friday afternoon.
+substance,/ˈsʌbstəns/,物质,The chemical substance is used in industrial manufacturing.
+substitute,/ˈsʌbstɪtuːt/,替代品,Honey can be used as a substitute for sugar.
+subtle,/ˈsʌtl/,微妙的,There is a subtle difference between the two colors.
+suburb,/ˈsʌbɜːrb/,郊区,They moved to a quiet suburb outside the city.
+succeed,/səkˈsiːd/,成功,She worked hard and eventually succeeded in her career.
+sufficient,/səˈfɪʃnt/,足够的,There is sufficient evidence to prove his innocence.
+suggest,/səˈdʒest/,建议,The doctor suggested that she get more rest each night.
+suitable,/ˈsuːtəbl/,合适的,This movie is not suitable for young children.
+summarize,/ˈsʌməraɪz/,总结,Can you summarize the main points of the article?
+supplement,/ˈsʌplɪmənt/,补充,She takes vitamin supplements every morning.
+supply,/səˈplaɪ/,供应,The supply of fresh water is limited in this region.
+supreme,/suːˈpriːm/,最高的,The supreme court made a historic ruling today.
+surplus,/ˈsɜːrpləs/,盈余,The country has a trade surplus this year.
+surrender,/səˈrendər/,投降,The army had no choice but to surrender to the enemy.
+surround,/səˈraʊnd/,围绕,Beautiful mountains surround the small town.
+survey,/ˈsɜːrveɪ/,调查,The survey revealed that most people support the new policy.
+survive,/sərˈvaɪv/,幸存,Only three passengers survived the plane crash.
+suspect,/səˈspekt/,怀疑,The police suspect that the fire was started deliberately.
+suspend,/səˈspend/,暂停,The school suspended the student for breaking the rules.
+sustain,/səˈsteɪn/,维持,It is hard to sustain economic growth without innovation.
+swallow,/ˈswɑːloʊ/,吞咽,She swallowed the pill with a glass of water.
+swear,/swer/,发誓,He swore to tell the truth in the courtroom.
+sweep,/swiːp/,清扫,She swept the floor before the guests arrived.
+switch,/swɪtʃ/,转换,Let us switch seats so you can see better.
+symbol,/ˈsɪmbl/,象征,The dove is a symbol of peace around the world.
+sympathy,/ˈsɪmpəθi/,同情,She expressed deep sympathy for the victims of the disaster.
+symptom,/ˈsɪmptəm/,症状,Fever is a common symptom of the flu.
+tackle,/ˈtækl/,处理,We must tackle the problem of pollution together.
+talent,/ˈtælənt/,天赋,She has a natural talent for painting and drawing.
+target,/ˈtɑːrɡɪt/,目标,The company set a target to double its sales by next year.
+technique,/tekˈniːk/,技术,The artist developed a unique painting technique.
+temporary,/ˈtempəreri/,临时的,This is only a temporary solution to the problem.
+tension,/ˈtenʃn/,紧张,There was a lot of tension between the two rival groups.
+terminal,/ˈtɜːrmɪnl/,终点站,The bus terminal is located in the city center.
+terminate,/ˈtɜːrmɪneɪt/,终止,The company terminated the contract due to breach of terms.
+terrific,/təˈrɪfɪk/,极好的,She did a terrific job organizing the event.
+textile,/ˈtekstaɪl/,纺织,The textile industry is one of the oldest in the region.
+theme,/θiːm/,主题,The theme of the conference is innovation and sustainability.
+theoretical/,/ˌθiːəˈretɪkl/,理论的,The study is purely theoretical and has not been tested yet.
+therapy,/ˈθerəpi/,治疗,Physical therapy helped him recover from the knee injury.
+thorough,/ˈθɜːroʊ/,彻底的,The police conducted a thorough investigation of the crime.
+threat,/θret/,威胁,Deforestation is a major threat to biodiversity.
+thrill,/θrɪl/,使兴奋,Winning the award thrilled her beyond words.
+tide,/taɪd/,潮汐,The tide comes in very quickly along this coastline.
+tissue,/ˈtɪʃuː/,纸巾,She grabbed a tissue to wipe her tears.
+tolerate,/ˈtɑːləreɪt/,忍受,She cannot tolerate rude behavior from anyone.
+tone,/toʊn/,语气,His tone of voice was calm but firm.
+tough,/tʌf/,艰难的,It was a tough decision but it had to be made.
+trace,/treɪs/,追踪,The detective managed to trace the call to a remote location.
+tradition,/trəˈdɪʃn/,传统,It is a family tradition to gather for dinner every Sunday.
+tragedy,/ˈtrædʒədi/,悲剧,The sinking of the ship was a terrible tragedy.
+trail,/treɪl/,小径,We followed a narrow trail through the dense forest.
+trait,/treɪt/,特征,Honesty is an admirable character trait.
+transaction,/trænˈzækʃn/,交易,Each transaction is recorded in the company's database.
+transform,/trænsˈfɔːrm/,改造,The renovation will transform the old building into a modern office.
+transmit,/trænsˈmɪt/,传输,The satellite transmits data back to earth every hour.
+transparent,/trænsˈpærənt/,透明的,The government should be more transparent about its spending.
+transport,/ˈtrænspɔːrt/,运输,The goods will be transported by truck to the warehouse.
+trap,/træp/,陷阱,The mouse walked right into the trap.
+treasure,/ˈtreʒər/,财宝,The pirates buried their treasure on a deserted island.
+tremendous,/trɪˈmendəs/,巨大的,She put a tremendous amount of effort into the project.
+trend,/trend/,趋势,There is a growing trend toward remote work.
+trial,/ˈtraɪəl/,审判,The trial lasted for three weeks and attracted national attention.
+tribe,/traɪb/,部落,The ancient tribe lived in harmony with the forest.
+trigger,/ˈtrɪɡər/,触发,The loud noise triggered the car alarm.
+triumph,/ˈtraɪʌmf/,胜利,The team's triumph in the championship was celebrated nationwide.
+tropical,/ˈtrɑːpɪkl/,热带的,The island has a warm tropical climate all year round.
+trust,/trʌst/,信任,Trust is the foundation of any strong relationship.
+tube,/tuːb/,管子,She squeezed the last bit of paste from the tube.
+tune,/tuːn/,曲调,He hummed a familiar tune while walking down the street.
+tunnel,/ˈtʌnl/,隧道,The train passed through a long tunnel under the mountain.
+twist,/twɪst/,转折,The story took an unexpected twist at the end.
+typical,/ˈtɪpɪkl/,典型的,This is a typical example of poor planning.
+ultimate,/ˈʌltɪmət/,最终的,The ultimate goal of the project is to save lives.
+undergo/,/ˌʌndərˈɡoʊ/,经受,The patient will undergo a series of medical tests.
+underline/,/ˌʌndərˈlaɪn/,强调,The teacher underlined the most important words in the text.
+undermine/,/ˌʌndərˈmaɪn/,削弱,Criticism can undermine a person's confidence over time.
+undertake/,/ˌʌndərˈteɪk/,承担,She undertook the difficult task of organizing the entire event.
+uniform,/ˈjuːnɪfɔːrm/,制服,All students must wear the school uniform every day.
+universal/,/ˌjuːnɪˈvɜːrsl/,普遍的,Access to clean water should be a universal right.
+update,/ʌpˈdeɪt/,更新,The app will update automatically when connected to Wi-Fi.
+urban,/ˈɜːrbən/,城市的,Urban areas tend to have higher living costs than rural areas.
+urge,/ɜːrdʒ/,敦促,The doctor urged him to quit smoking immediately.
+utility,/juːˈtɪləti/,实用,The utility of this tool makes it popular among carpenters.
+utter,/ˈʌtər/,完全的,She was in utter disbelief when she heard the news.
+vague,/veɪɡ/,含糊的,He gave a vague answer that satisfied no one.
+valid,/ˈvælɪd/,有效的,Your passport must be valid for at least six more months.
+vanish,/ˈvænɪʃ/,消失,The magician made the rabbit vanish from the hat.
+variable,/ˈveriəbl/,变量,Scientists controlled every variable in the experiment.
+vary,/ˈveri/,变化,Prices vary depending on the season and the location.
+vast,/væst/,广阔的,The vast desert stretched for hundreds of miles in every direction.
+vehicle,/ˈviːɪkl/,车辆,Electric vehicles are becoming more popular every year.
+venture,/ˈventʃər/,冒险事业,Starting a new business is always a risky venture.
+verdict,/ˈvɜːrdɪkt/,裁决,The jury announced a not guilty verdict after deliberation.
+verify,/ˈverɪfaɪ/,核实,Please verify your email address before submitting the form.
+version,/ˈvɜːrʒn/,版本,This is the latest version of the operating system.
+victim,/ˈvɪktɪm/,受害者,The victims of the flood received immediate aid from the government.
+violate,/ˈvaɪəleɪt/,违反,Parking here will violate the city traffic regulations.
+violence,/ˈvaɪələns/,暴力,The organization works to prevent violence in schools.
+virtual,/ˈvɜːrtʃuəl/,虚拟的,Virtual meetings have become a normal part of work life.
+visible,/ˈvɪzəbl/,看得见的,The stars were clearly visible in the night sky.
+vision,/ˈvɪʒn/,愿景,She shared her vision for the future of the company.
+vital,/ˈvaɪtl/,至关重要的,Clean air is vital for human health.
+vivid,/ˈvɪvɪd/,生动的,She gave a vivid description of her travel experience.
+volume,/ˈvɑːljuːm/,音量,Please turn down the volume of the television.
+voluntary,/ˈvɑːlənteri/,自愿的,Participation in the program is completely voluntary.
+vote,/voʊt/,投票,Every citizen has the right to vote in the election.
+vulnerable,/ˈvʌlnərəbl/,脆弱的,Children are particularly vulnerable to air pollution.
+wage,/weɪdʒ/,工资,The company raised the minimum wage for all employees.
+wander,/ˈwɒndər/,游荡,He wandered through the museum for hours.
+warn,/wɔːrn/,警告,The sign warns visitors not to feed the animals.
+waste,/weɪst/,浪费,Do not waste your time on things that do not matter.
+wealth,/welθ/,财富,Good health is more important than material wealth.
+weave,/wiːv/,编织,She learned to weave baskets from her grandmother.
+welfare/,/ˈwelfeɪr/,福利,The government increased funding for child welfare programs.
+whereas,/werˈæz/,然而,He prefers tea whereas his wife prefers coffee.
+whisper,/ˈwɪspər/,低语,She whispered a secret into her best friend's ear.
+wicked,/ˈwɪkɪd/,邪恶的,The wicked witch cast a spell on the entire kingdom.
+widow,/ˈwɪdoʊ/,寡妇,The elderly widow lived alone in the countryside.
+wisdom,/ˈwɪzdəm/,智慧,With age comes wisdom and understanding.
+withdraw,/wɪðˈdrɔː/,撤退,The army was forced to withdraw from the battlefield.
+witness,/ˈwɪtnəs/,目击者,The witness testified in court about what she had seen.
+wonder,/ˈwʌndər/,奇迹,The ancient pyramid is one of the wonders of the world.
+workshop,/ˈwɜːrkʃɑːp/,研讨会,She attended a creative writing workshop last weekend.
+worthwhile/,/ˌwɜːrθˈwaɪl/,值得的,Volunteering at the shelter was a very worthwhile experience.
+worthy,/ˈwɜːrði/,值得的,She is a worthy winner of the science award.
+yield,/jiːld/,屈服,He refused to yield to pressure from his opponents.
+zone,/zoʊn/,时区,The country spans across three different time zones.
+

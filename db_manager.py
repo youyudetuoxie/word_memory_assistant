@@ -9,7 +9,7 @@
 - words：单词表
 - review_records：复习记录表
 """
-
+import csv
 import sqlite3
 import os
 from datetime import date, datetime, timedelta
@@ -383,3 +383,67 @@ if __name__ == "__main__":
     import os
     os.remove(DB_PATH)
     print("测试完成，数据库文件已清理")
+
+# ─────────────────────────────────────────────
+# 内置词书自动导入
+# ─────────────────────────────────────────────
+
+def init_builtin_wordbooks(data_folder: str = "data"):
+    """
+    扫描 data_folder 下的所有 .csv 文件，自动导入为词书。
+    若词书表中已存在同名词书（文件名不含扩展名），则跳过。
+    CSV 文件必须包含 'word' 和 'meaning' 列，可选 'phonetic'、'example' 列。
+    """
+    import csv
+    import os
+
+    # 获取当前文件所在目录的绝对路径，然后拼接 data_folder
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(base_dir, data_folder)
+
+    if not os.path.isdir(data_path):
+        print(f"内置词书目录不存在: {data_path}")
+        return
+
+    for filename in os.listdir(data_path):
+        if not filename.lower().endswith(".csv"):
+            continue
+
+        # 用文件名（不含扩展名）作为词书名称
+        book_name = os.path.splitext(filename)[0]
+
+        # 检查该词书是否已存在
+        conn = _get_conn()
+        row = conn.execute("SELECT id FROM wordbooks WHERE name = ?", (book_name,)).fetchone()
+        exists = row is not None
+        conn.close()
+
+        if exists:
+            print(f"内置词书 '{book_name}' 已存在，跳过")
+            continue
+
+        # 读取 CSV 文件并导入
+        file_path = os.path.join(data_path, filename)
+        try:
+            with open(file_path, 'r', encoding='utf-8-sig') as f:
+                reader = csv.DictReader(f)
+                words = []
+                for row in reader:
+                    word = row.get("word", "").strip()
+                    meaning = row.get("meaning", "").strip()
+                    if not word or not meaning:
+                        continue
+                    words.append({
+                        "word": word,
+                        "meaning": meaning,
+                        "phonetic": row.get("phonetic", "").strip(),
+                        "example": row.get("example", "").strip()
+                    })
+                if words:
+                    wb_id = create_wordbook(book_name)
+                    count = batch_add_words(wb_id, words)
+                    print(f"内置词书 '{book_name}' 导入成功，共 {count} 个单词")
+                else:
+                    print(f"内置词书 '{filename}' 没有有效单词，跳过")
+        except Exception as e:
+            print(f"导入内置词书 '{filename}' 失败: {e}")

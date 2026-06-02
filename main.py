@@ -11,7 +11,7 @@ import db_manager
 def main():
     # 1. 初始化数据库（首次运行时自动建表）
     db_manager.init_db()
-
+    db_manager.init_builtin_wordbooks("data")  
     # 2. 创建主窗口
     root = tk.Tk()
     root.title("单词记忆助手")
